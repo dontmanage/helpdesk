@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import {
-	DontManageUI,
+	FrappeUI,
 	Badge,
 	Button,
 	Dialog,
@@ -29,7 +29,7 @@ setConfig("resourceFetcher", frappeRequest);
 app.directive("on-outside-click", onOutsideClickDirective);
 app.use(pinia);
 app.use(router);
-app.use(DontManageUI, {
+app.use(FrappeUI, {
 	socketio: {
 		port: socketio_port,
 	},

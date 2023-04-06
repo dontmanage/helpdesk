@@ -1,0 +1,26 @@
+import dontmanage
+
+
+@dontmanage.whitelist(allow_guest=True)
+def brand_html():
+	settings_doc = dontmanage.get_doc("Website Settings")
+	if settings_doc.brand_html:
+		return settings_doc.brand_html
+	else:
+		if settings_doc.banner_image:
+			return (
+				f"<img src='{settings_doc.banner_image}' style='max-width: 80px; margin-top: -5px'>"
+			)
+		else:
+			return ""
+
+
+@dontmanage.whitelist(allow_guest=True)
+def navbar_items():
+	return dontmanage.get_doc("Website Settings").top_bar_items
+
+
+@dontmanage.whitelist(allow_guest=True)
+def helpdesk_name():
+	name = dontmanage.get_doc("HD Settings").helpdesk_name
+	return name if name else ""

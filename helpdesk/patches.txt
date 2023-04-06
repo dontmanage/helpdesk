@@ -1,0 +1,8 @@
+[pre_model_sync]
+helpdesk.patches.change_app_name_to_helpdesk
+helpdesk.patches.rename_doctypes_prefix_with_hd
+helpdesk.patches.rename_dontmanagedesk_module_references
+helpdesk.patches.ticket_naming_rule_to_autoincrement
+
+[post_model_sync]
+execute:dontmanage.delete_doc("Workspace", "DontManage Desk", force=True)

@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import {
-  dontmanageRequest,
+  frappeRequest,
   resourcesPlugin,
   setConfig,
   Badge,
@@ -33,7 +33,7 @@ const globalComponents = {
   TextInput,
 };
 
-setConfig("resourceFetcher", dontmanageRequest);
+setConfig("resourceFetcher", frappeRequest);
 setConfig("fallbackErrorHandler", (error) => {
   createToast({
     title: error.exc_type || "Error",
@@ -58,7 +58,7 @@ app.config.globalProperties.$socket = socket;
 app.config.globalProperties.$toast = createToast;
 
 if (import.meta.env.DEV) {
-  dontmanageRequest({
+  frappeRequest({
     url: "/api/method/helpdesk.www.helpdesk.index.get_context_for_dev",
   }).then((values) => {
     for (let key in values) {

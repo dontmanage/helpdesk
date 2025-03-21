@@ -1,7 +1,7 @@
 import path from "path";
 import { defineConfig } from "vite";
 import vue from "@vitejs/plugin-vue";
-import dontmanageui from "dontmanage-ui/vite";
+import frappeui from "frappe-ui/vite";
 import Icons from "unplugin-icons/vite";
 import Components from "unplugin-vue-components/vite";
 import IconsResolver from "unplugin-icons/resolver";
@@ -12,7 +12,7 @@ import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
   plugins: [
-    dontmanageui(),
+    frappeui(),
     vue(),
     Components({
       resolvers: IconsResolver({

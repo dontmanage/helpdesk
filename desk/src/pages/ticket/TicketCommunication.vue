@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import { Tooltip } from "dontmanage-ui";
+import { Tooltip } from "frappe-ui";
 import sanitizeHtml from "sanitize-html";
 import { Icon } from "@iconify/vue";
 import { dayjs } from "@/dayjs";

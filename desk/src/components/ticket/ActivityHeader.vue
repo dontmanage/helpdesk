@@ -48,7 +48,7 @@
 import { h } from "vue";
 import { computed } from "vue";
 import { EmailIcon, CommentIcon } from "@/components/icons";
-import { Dropdown } from "dontmanage-ui";
+import { Dropdown } from "frappe-ui";
 import { inject } from "vue";
 import { Ref } from "vue";
 defineProps({

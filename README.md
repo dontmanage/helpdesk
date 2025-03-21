@@ -84,7 +84,7 @@ Managing issues from our customers was a big challenge for us. We were using the
 
 - [**DontManage Framework**](https://github.com/dontmanage/dontmanage): A full-stack web application framework written in Python and Javascript.
 
-- [**DontManage UI**](https://github.com/dontmanage/dontmanage-ui): A Vue-based UI library, to provide a modern user interface. 
+- [**DontManage UI**](https://github.com/dontmanage/frappe-ui): A Vue-based UI library, to provide a modern user interface. 
 
 
 ## Production Setup

@@ -35,7 +35,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { Avatar, Tooltip } from "dontmanage-ui";
+import { Avatar, Tooltip } from "frappe-ui";
 import { computed } from "vue";
 import { useUserStore } from "@/stores/user";
 

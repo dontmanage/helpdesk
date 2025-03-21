@@ -38,7 +38,7 @@
 </template>
 <script setup lang="ts">
 import { ref, computed, h } from "vue";
-import { usePageMeta, Avatar } from "dontmanage-ui";
+import { usePageMeta, Avatar } from "frappe-ui";
 import NewCustomerDialog from "@/components/desk/global/NewCustomerDialog.vue";
 import CustomerDialog from "./CustomerDialog.vue";
 import LayoutHeader from "@/components/LayoutHeader.vue";

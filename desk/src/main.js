@@ -13,7 +13,7 @@ import {
   Input,
   Tooltip,
   TextInput,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import App from "./App.vue";
 import "./index.css";
 import { router } from "./router";

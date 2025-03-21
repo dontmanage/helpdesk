@@ -30,7 +30,7 @@
 </template>
 <script setup lang="ts">
 import { computed, ref, h } from "vue";
-import { usePageMeta, Avatar } from "dontmanage-ui";
+import { usePageMeta, Avatar } from "frappe-ui";
 import AddNewAgentsDialog from "@/components/desk/global/AddNewAgentsDialog.vue";
 import { LayoutHeader, ListViewBuilder } from "@/components";
 

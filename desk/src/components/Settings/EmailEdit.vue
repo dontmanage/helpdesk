@@ -78,7 +78,7 @@
 
 <script setup lang="ts">
 import { computed, reactive, ref } from "vue";
-import { call } from "dontmanage-ui";
+import { call } from "frappe-ui";
 import EmailProviderIcon from "./EmailProviderIcon.vue";
 import {
   emailIcon,

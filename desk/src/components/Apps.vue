@@ -34,7 +34,7 @@
   </Popover>
 </template>
 <script setup>
-import { Popover, createResource } from "dontmanage-ui";
+import { Popover, createResource } from "frappe-ui";
 import AppsIcon from "./icons/AppsIcon.vue";
 import ChevronRight from "~icons/lucide/chevron-right";
 

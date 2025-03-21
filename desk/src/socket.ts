@@ -1,5 +1,5 @@
 import { io } from "socket.io-client";
-import { getCachedResource, getCachedListResource } from "dontmanage-ui";
+import { getCachedResource, getCachedListResource } from "frappe-ui";
 import { socketio_port } from "../../../../sites/common_site_config.json";
 
 function init() {

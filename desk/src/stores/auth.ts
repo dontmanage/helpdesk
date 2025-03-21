@@ -1,6 +1,6 @@
 import { computed, ComputedRef, Ref, ref } from "vue";
 import { defineStore } from "pinia";
-import { createResource, call } from "dontmanage-ui";
+import { createResource, call } from "frappe-ui";
 import { router, REDIRECT_PAGE } from "@/router";
 
 const URI_LOGIN = "login";

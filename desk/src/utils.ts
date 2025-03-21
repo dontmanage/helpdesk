@@ -1,5 +1,5 @@
 import { useClipboard, useDateFormat, useTimeAgo } from "@vueuse/core";
-import { toast } from "dontmanage-ui";
+import { toast } from "frappe-ui";
 import { ref, h, markRaw } from "vue";
 import zod from "zod";
 import { gemoji } from "gemoji";

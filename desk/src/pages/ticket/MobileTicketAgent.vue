@@ -190,7 +190,7 @@ import {
   createResource,
   Dialog,
   FormControl,
-} from "dontmanage-ui";
+} from "frappe-ui";
 
 import {
   LayoutHeader,

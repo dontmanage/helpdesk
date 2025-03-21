@@ -17,7 +17,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import { Dialog } from "dontmanage-ui";
+import { Dialog } from "frappe-ui";
 import { Link } from "@/components";
 
 const emit = defineEmits(["move"]);

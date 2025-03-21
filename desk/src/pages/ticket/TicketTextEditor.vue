@@ -84,7 +84,7 @@
 
 <script setup lang="ts">
 import { computed, ref } from "vue";
-import { FileUploader } from "dontmanage-ui";
+import { FileUploader } from "frappe-ui";
 import { Icon } from "@iconify/vue";
 import { useAuthStore } from "@/stores/auth";
 import {

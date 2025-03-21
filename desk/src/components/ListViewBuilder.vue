@@ -130,7 +130,7 @@ import {
   ListSelectBanner,
   FeatherIcon,
   Dropdown,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import {
   Filter,
   SortBy,

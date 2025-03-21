@@ -58,7 +58,7 @@
 </template>
 <script setup lang="ts">
 import { computed, nextTick, ref } from "vue";
-import { TextEditor as FTextEditor, TextEditorFixedMenu } from "dontmanage-ui";
+import { TextEditor as FTextEditor, TextEditorFixedMenu } from "frappe-ui";
 import { useAuthStore } from "@/stores/auth";
 import { UserAvatar } from "@/components";
 import { PreserveVideoControls } from "@/tiptap-extensions";

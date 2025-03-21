@@ -23,7 +23,7 @@
 </template>
 
 <script setup lang="ts">
-import { FeatherIcon } from "dontmanage-ui";
+import { FeatherIcon } from "frappe-ui";
 const props = defineProps({
   category: {
     required: true,

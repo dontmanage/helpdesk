@@ -47,7 +47,7 @@
 </template>
 
 <script setup>
-import { TextEditor, call, TextInput } from "dontmanage-ui";
+import { TextEditor, call, TextInput } from "frappe-ui";
 
 const props = defineProps({
   name: {

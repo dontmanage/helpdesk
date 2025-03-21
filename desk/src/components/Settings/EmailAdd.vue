@@ -95,7 +95,7 @@
 
 <script setup lang="ts">
 import { computed, Reactive, reactive, Ref, ref } from "vue";
-import { createResource } from "dontmanage-ui";
+import { createResource } from "frappe-ui";
 import IconAlert from "~icons/espresso/alert-circle";
 import { createToast } from "@/utils";
 import {

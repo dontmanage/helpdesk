@@ -70,7 +70,7 @@
 </template>
 <script setup>
 import { ref, computed } from "vue";
-import { Popover } from "dontmanage-ui";
+import { Popover } from "frappe-ui";
 import { gemoji } from "gemoji";
 
 const search = ref("");

@@ -32,7 +32,7 @@
 
 <script setup lang="ts">
 import { toRefs, h, computed } from "vue";
-import { createResource, Badge, Button, Dropdown, Tooltip } from "dontmanage-ui";
+import { createResource, Badge, Button, Dropdown, Tooltip } from "frappe-ui";
 import { Icon } from "@iconify/vue";
 import { dayjs } from "@/dayjs";
 import { emitter } from "@/emitter";

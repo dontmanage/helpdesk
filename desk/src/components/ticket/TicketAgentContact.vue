@@ -39,7 +39,7 @@
 </template>
 
 <script setup lang="ts">
-import { Tooltip, Avatar } from "dontmanage-ui";
+import { Tooltip, Avatar } from "frappe-ui";
 import { EmailIcon, TicketIcon } from "@/components/icons/";
 
 const props = defineProps({

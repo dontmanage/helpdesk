@@ -1,4 +1,4 @@
-import { createResource } from "dontmanage-ui";
+import { createResource } from "frappe-ui";
 
 // Title
 export const newArticle = createResource({

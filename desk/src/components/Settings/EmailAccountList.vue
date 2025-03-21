@@ -34,7 +34,7 @@
 </template>
 
 <script setup lang="ts">
-import { createListResource } from "dontmanage-ui";
+import { createListResource } from "frappe-ui";
 import EmailAccountCard from "./EmailAccountCard.vue";
 import { EmailAccount } from "@/types";
 

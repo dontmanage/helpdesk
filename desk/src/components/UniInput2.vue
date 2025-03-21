@@ -40,7 +40,7 @@
 <script setup lang="ts">
 import { computed, h } from "vue";
 import { Autocomplete, Link } from "@/components";
-import { createResource, FormControl, Tooltip } from "dontmanage-ui";
+import { createResource, FormControl, Tooltip } from "frappe-ui";
 import { Field, FieldValue } from "@/types";
 
 interface P {

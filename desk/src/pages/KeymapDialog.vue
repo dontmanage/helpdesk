@@ -28,7 +28,7 @@
 </template>
 
 <script setup lang="ts">
-import { Badge } from "dontmanage-ui";
+import { Badge } from "frappe-ui";
 import { isEmpty } from "lodash";
 import { useKeymapStore } from "@/stores/keymap";
 

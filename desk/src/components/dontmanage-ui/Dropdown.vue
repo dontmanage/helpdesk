@@ -87,7 +87,7 @@
 
 <script setup>
 import { Menu, MenuButton, MenuItems, MenuItem } from "@headlessui/vue";
-import { Popover, Button, FeatherIcon } from "dontmanage-ui";
+import { Popover, Button, FeatherIcon } from "frappe-ui";
 import { computed, useSlots } from "vue";
 import { useRouter } from "vue-router";
 

@@ -1,5 +1,5 @@
 import { ref } from "vue";
-import { createResource } from "dontmanage-ui";
+import { createResource } from "frappe-ui";
 import "../../../dontmanage/dontmanage/public/js/lib/posthog.js";
 
 const APP = "helpdesk";

@@ -164,7 +164,7 @@ import {
   TextEditor,
   TextEditorFixedMenu,
   createResource,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import {
   createToast,
   validateEmail,

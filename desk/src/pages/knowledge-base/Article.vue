@@ -122,7 +122,7 @@ import {
   Dropdown,
   Button,
   confirmDialog,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import { useRouter, useRoute } from "vue-router";
 import { dayjs } from "@/dayjs";
 import {

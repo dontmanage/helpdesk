@@ -77,7 +77,7 @@ import {
   TextEditorFixedMenu,
   confirmDialog,
   Breadcrumbs,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import { useRouter, useRoute } from "vue-router";
 import { newArticle } from "@/stores/knowledgeBase";
 import { useUserStore } from "@/stores/user";

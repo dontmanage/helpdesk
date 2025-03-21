@@ -144,7 +144,7 @@ import {
   Tabs,
   TabPanel,
   TabList,
-} from "dontmanage-ui";
+} from "frappe-ui";
 
 import {
   LayoutHeader,

@@ -46,7 +46,7 @@ import {
   Dropdown,
   createResource,
   Badge,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import { useRouter } from "vue-router";
 import {
   updateCategoryTitle,

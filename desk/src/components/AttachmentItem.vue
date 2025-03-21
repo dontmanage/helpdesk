@@ -37,7 +37,7 @@
 
 <script setup lang="ts">
 import { ref } from "vue";
-import { Button, Dialog } from "dontmanage-ui";
+import { Button, Dialog } from "frappe-ui";
 import { getType as getMime } from "mime";
 import LucideFileType from "~icons/lucide/file-type";
 import LucideFileImage from "~icons/lucide/file-image";

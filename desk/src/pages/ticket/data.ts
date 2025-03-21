@@ -1,4 +1,4 @@
-import { createResource } from "dontmanage-ui";
+import { createResource } from "frappe-ui";
 import { Resource, Ticket } from "@/types";
 
 export function useTicket(

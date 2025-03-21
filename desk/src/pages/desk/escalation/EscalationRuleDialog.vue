@@ -19,7 +19,7 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
-import { createResource, createDocumentResource, Dialog } from "dontmanage-ui";
+import { createResource, createDocumentResource, Dialog } from "frappe-ui";
 import { createToast } from "@/utils";
 import { useError } from "@/composables/error";
 import EscalationRuleDialogFieldList from "./EscalationRuleDialogFieldList.vue";

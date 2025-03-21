@@ -1,6 +1,6 @@
 import { computed, ComputedRef } from "vue";
 import { defineStore } from "pinia";
-import { createListResource } from "dontmanage-ui";
+import { createListResource } from "frappe-ui";
 
 type Team = {
   name: string;

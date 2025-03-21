@@ -1,6 +1,6 @@
 import { computed, ComputedRef } from "vue";
 import { defineStore } from "pinia";
-import { createResource } from "dontmanage-ui";
+import { createResource } from "frappe-ui";
 import { socket } from "@/socket";
 
 export const useConfigStore = defineStore("config", () => {

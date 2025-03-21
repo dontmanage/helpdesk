@@ -153,7 +153,7 @@ import {
   FormControl,
   Switch,
   Breadcrumbs,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import { isEmpty } from "lodash";
 import { AGENT_PORTAL_TEAM_LIST, AGENT_PORTAL_TEAM_SINGLE } from "@/router";
 import { useAgentStore } from "@/stores/agent";

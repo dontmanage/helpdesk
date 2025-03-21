@@ -63,7 +63,7 @@ import {
   call,
   usePageMeta,
   FeatherIcon,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import { useRouter, useRoute } from "vue-router";
 import {
   EditIcon,

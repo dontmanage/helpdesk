@@ -1,6 +1,6 @@
 import { computed } from "vue";
 import { defineStore } from "pinia";
-import { createListResource } from "dontmanage-ui";
+import { createListResource } from "frappe-ui";
 
 export const useAgentStore = defineStore("agent", () => {
   const agents = createListResource({

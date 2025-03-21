@@ -63,7 +63,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-import { FormControl, usePageMeta, Popover } from "dontmanage-ui";
+import { FormControl, usePageMeta, Popover } from "frappe-ui";
 import { Icon } from "@iconify/vue";
 import { LayoutHeader } from "@/components";
 import CategoryFolderContainer from "@/components/knowledge-base/CategoryFolderContainer.vue";

@@ -60,7 +60,7 @@
 
 <script setup>
 import { useAttrs, computed, ref } from "vue";
-import { createResource } from "dontmanage-ui";
+import { createResource } from "frappe-ui";
 import Autocomplete from "./Autocomplete.vue";
 import { watchDebounced } from "@vueuse/core";
 

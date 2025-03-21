@@ -42,7 +42,7 @@ import {
   Avatar,
   Dialog,
   FileUploader,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import { createToast } from "@/utils";
 import { useError } from "@/composables/error";
 

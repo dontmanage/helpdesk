@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { createResource } from "dontmanage-ui";
+import { createResource } from "frappe-ui";
 import { useAuthStore } from "./auth";
 import { reactive } from "vue";
 import { REDIRECT_PAGE } from "@/router";

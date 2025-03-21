@@ -109,7 +109,7 @@ import {
   Button,
   FormControl,
   Breadcrumbs,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import sanitizeHtml from "sanitize-html";
 import { isEmpty } from "lodash";
 import { useError } from "@/composables/error";

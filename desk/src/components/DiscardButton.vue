@@ -3,7 +3,7 @@
 </template>
 
 <script setup lang="ts">
-import { confirmDialog } from "dontmanage-ui";
+import { confirmDialog } from "frappe-ui";
 
 const emit = defineEmits<{
   (event: "discard"): void;

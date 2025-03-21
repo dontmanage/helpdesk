@@ -85,7 +85,7 @@ import {
 } from "@/components/icons";
 import { EmailArea, CommentBox, HistoryBox } from "@/components";
 import { useUserStore } from "@/stores/user";
-import { Avatar } from "dontmanage-ui";
+import { Avatar } from "frappe-ui";
 import { TicketActivity } from "@/types";
 const props = defineProps({
   activities: {

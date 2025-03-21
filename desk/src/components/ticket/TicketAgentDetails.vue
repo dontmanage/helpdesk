@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-import { Badge, Tooltip } from "dontmanage-ui";
+import { Badge, Tooltip } from "frappe-ui";
 import { dayjs } from "@/dayjs";
 import { formatTime } from "@/utils";
 import { dateFormat, dateTooltipFormat } from "@/utils";

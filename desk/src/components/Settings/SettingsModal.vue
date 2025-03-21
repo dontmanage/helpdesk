@@ -32,7 +32,7 @@
 </template>
 <script setup lang="ts">
 import { ModelRef, ref } from "vue";
-import { Dialog } from "dontmanage-ui";
+import { Dialog } from "frappe-ui";
 import LucideMail from "~icons/lucide/mail";
 import ImageUp from "~icons/lucide/image-up";
 import EmailConfig from "./EmailConfig.vue";

@@ -66,7 +66,7 @@
 
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, provide, ref } from "vue";
-import { createResource, Button, Breadcrumbs, confirmDialog } from "dontmanage-ui";
+import { createResource, Button, Breadcrumbs, confirmDialog } from "frappe-ui";
 import { useConfigStore } from "@/stores/config";
 import { Icon } from "@iconify/vue";
 import { useError } from "@/composables/error";

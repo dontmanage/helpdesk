@@ -18,7 +18,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import { Avatar } from "dontmanage-ui";
+import { Avatar } from "frappe-ui";
 import { useUserStore } from "@/stores/user";
 const userStore = useUserStore();
 

@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { call } from "dontmanage-ui";
+import { call } from "frappe-ui";
 import { Field } from "@/types";
 import { useError } from "@/composables/error";
 

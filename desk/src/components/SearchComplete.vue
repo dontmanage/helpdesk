@@ -17,7 +17,7 @@
 
 <script setup lang="ts">
 import { Autocomplete } from "@/components";
-import { createListResource } from "dontmanage-ui";
+import { createListResource } from "frappe-ui";
 import { computed, ref } from "vue";
 
 const emit = defineEmits(["change"]);

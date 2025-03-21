@@ -65,7 +65,7 @@ import {
   ListGroupRows,
   Dropdown,
   Button,
-} from "dontmanage-ui";
+} from "frappe-ui";
 
 import IconMoreHorizontal from "~icons/lucide/more-horizontal";
 const props = defineProps({

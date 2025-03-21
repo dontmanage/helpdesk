@@ -18,7 +18,7 @@
 
 <script setup lang="ts">
 import { ref, toRefs } from "vue";
-import { Input } from "dontmanage-ui";
+import { Input } from "frappe-ui";
 import { createToast } from "@/utils";
 import Pill from "./Pill.vue";
 

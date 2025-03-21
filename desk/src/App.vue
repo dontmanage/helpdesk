@@ -7,12 +7,12 @@
 
 <script setup lang="ts">
 import { onMounted, onUnmounted } from "vue";
-import { Toasts } from "dontmanage-ui";
+import { Toasts } from "frappe-ui";
 import { createToast } from "@/utils";
 import { useConfigStore } from "@/stores/config";
 import KeymapDialog from "@/pages/KeymapDialog.vue";
 import { stopSession } from "@/telemetry";
-import { Dialogs } from "dontmanage-ui";
+import { Dialogs } from "frappe-ui";
 useConfigStore();
 
 onMounted(() => {

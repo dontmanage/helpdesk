@@ -121,7 +121,7 @@ import {
   Tooltip,
   call,
   usePageMeta,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import { CannedResponseModal } from "@/components/canned-response/";
 import { LayoutHeader } from "@/components";
 import { useUserStore } from "@/stores/user";

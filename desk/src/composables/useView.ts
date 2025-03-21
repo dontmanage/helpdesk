@@ -1,5 +1,5 @@
 import { computed, ref, watch } from "vue";
-import { createResource, createListResource, call } from "dontmanage-ui";
+import { createResource, createListResource, call } from "frappe-ui";
 import { View } from "@/types";
 import { useAuthStore } from "@/stores/auth";
 import { useRouter } from "vue-router";

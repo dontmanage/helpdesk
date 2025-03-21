@@ -42,7 +42,7 @@
 import { computed, inject, nextTick, watch } from "vue";
 import { useRoute } from "vue-router";
 import { useElementVisibility } from "@vueuse/core";
-import { Avatar } from "dontmanage-ui";
+import { Avatar } from "frappe-ui";
 import { orderBy } from "lodash";
 import { dayjs } from "@/dayjs";
 import TicketCommunication from "./TicketCommunication.vue";

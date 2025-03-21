@@ -20,7 +20,7 @@
 <script setup lang="ts">
 import { computed, h } from "vue";
 import { Autocomplete } from "@/components";
-import { createResource, FormControl } from "dontmanage-ui";
+import { createResource, FormControl } from "frappe-ui";
 import { Field } from "@/types";
 import SearchComplete from "./SearchComplete.vue";
 

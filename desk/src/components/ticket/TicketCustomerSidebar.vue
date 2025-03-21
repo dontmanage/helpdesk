@@ -78,7 +78,7 @@
 <script setup lang="ts">
 import { inject, computed } from "vue";
 import { ITicket } from "@/pages/ticket/symbols";
-import { Tooltip, Avatar } from "dontmanage-ui";
+import { Tooltip, Avatar } from "frappe-ui";
 import { dayjs } from "@/dayjs";
 import { formatTime } from "@/utils";
 import { Field } from "@/types";

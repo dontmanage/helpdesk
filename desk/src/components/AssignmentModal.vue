@@ -58,7 +58,7 @@
 
 <script setup lang="ts">
 import { ref, computed } from "vue";
-import { createResource } from "dontmanage-ui";
+import { createResource } from "frappe-ui";
 import { UserAvatar, SearchComplete } from "@/components";
 import { useUserStore } from "@/stores/user";
 

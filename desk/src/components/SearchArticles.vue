@@ -76,7 +76,7 @@
 
 <script setup lang="ts">
 import { watch } from "vue";
-import { createResource } from "dontmanage-ui";
+import { createResource } from "frappe-ui";
 import { isEmpty } from "lodash";
 import { Icon } from "@iconify/vue";
 import { capture } from "@/telemetry";

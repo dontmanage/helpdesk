@@ -12,7 +12,7 @@
   </Button>
 </template>
 <script setup>
-import { Button } from "dontmanage-ui";
+import { Button } from "frappe-ui";
 import IconX from "~icons/lucide/x";
 defineProps({
   label: {

@@ -101,7 +101,7 @@ import {
   TextEditor,
   FileUploader,
   createResource,
-} from "dontmanage-ui";
+} from "frappe-ui";
 
 import { AttachmentIcon } from "@/components/icons/";
 import { AttachmentItem } from "@/components/";

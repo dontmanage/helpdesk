@@ -5,7 +5,7 @@
 		"dev": "cd desk && yarn dev",
 		"build": "cd desk && yarn build"
 	},
-	"workspaces": ["desk", "dontmanage-ui"],
+	"workspaces": ["desk", "frappe-ui"],
 	"resolutions": {
 		"cheerio": "1.0.0-rc.12"
 	}

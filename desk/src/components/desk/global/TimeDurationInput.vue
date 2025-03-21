@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import { Input } from "dontmanage-ui";
+import { Input } from "frappe-ui";
 import { ref } from "@vue/reactivity";
 
 export default {

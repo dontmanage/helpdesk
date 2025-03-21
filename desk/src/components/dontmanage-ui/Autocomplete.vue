@@ -132,7 +132,7 @@ import {
   ComboboxOptions,
   ComboboxOption,
 } from "@headlessui/vue";
-import { Popover, Button, FeatherIcon } from "dontmanage-ui";
+import { Popover, Button, FeatherIcon } from "frappe-ui";
 import { ref, computed, useAttrs, useSlots, watch, nextTick } from "vue";
 
 const props = defineProps({

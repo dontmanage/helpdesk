@@ -86,7 +86,7 @@
 
 <script setup>
 import { Icon } from "@iconify/vue";
-import Dropdown from "@/components/dontmanage-ui/Dropdown.vue";
+import Dropdown from "@/components/frappe-ui/Dropdown.vue";
 import { useRoute } from "vue-router";
 import { useScreenSize } from "@/composables/screen";
 

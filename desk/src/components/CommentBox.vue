@@ -101,7 +101,7 @@ import {
   Dialog,
   Avatar,
   TextEditor,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import {
   dateFormat,
   timeAgo,

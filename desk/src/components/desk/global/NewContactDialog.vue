@@ -52,7 +52,7 @@ import {
   createResource,
   Autocomplete,
   createListResource,
-} from "dontmanage-ui";
+} from "frappe-ui";
 import zod from "zod";
 
 import { createToast } from "@/utils";

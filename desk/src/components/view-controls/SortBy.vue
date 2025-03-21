@@ -167,9 +167,9 @@
 
 <script setup>
 import { computed, inject } from "vue";
-import { NestedPopover } from "dontmanage-ui";
+import { NestedPopover } from "frappe-ui";
 import { useSortable } from "@vueuse/integrations/useSortable";
-import Autocomplete from "@/components/dontmanage-ui/Autocomplete.vue";
+import Autocomplete from "@/components/frappe-ui/Autocomplete.vue";
 import {
   AscendingIcon,
   DescendingIcon,

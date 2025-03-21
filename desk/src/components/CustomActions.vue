@@ -32,7 +32,7 @@
 
 <script setup>
 import { computed, h } from "vue";
-import { Dropdown } from "dontmanage-ui";
+import { Dropdown } from "frappe-ui";
 
 const props = defineProps({
   actions: {

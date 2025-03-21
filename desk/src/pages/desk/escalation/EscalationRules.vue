@@ -32,7 +32,7 @@
 </template>
 <script setup lang="ts">
 import { ref } from "vue";
-import { usePageMeta } from "dontmanage-ui";
+import { usePageMeta } from "frappe-ui";
 import PageTitle from "@/components/PageTitle.vue";
 import EscalationRuleDialog from "./EscalationRuleDialog.vue";
 import ListViewBuilder from "@/components/ListViewBuilder.vue";

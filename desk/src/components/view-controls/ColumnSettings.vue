@@ -147,7 +147,7 @@ import {
   ColumnsIcon,
 } from "@/components/icons";
 import NestedPopover from "@/components/NestedPopover.vue";
-import Autocomplete from "@/components/frappe-ui/Autocomplete.vue";
+import Autocomplete from "@/components/dontmanage-ui/Autocomplete.vue";
 import { isTouchScreenDevice } from "@/utils";
 import Draggable from "vuedraggable";
 import { computed, ref, inject } from "vue";

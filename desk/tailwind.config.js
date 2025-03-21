@@ -1,6 +1,6 @@
 module.exports = {
   mode: "jit",
-  presets: [require("frappe-ui/src/tailwind/preset")],
+  presets: [require("dontmanage-ui/src/tailwind/preset")],
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
